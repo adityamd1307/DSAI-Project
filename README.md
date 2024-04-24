@@ -47,18 +47,17 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
    - Tokenization: Breaking text into tokens for analysis.
    - Vectorization: Using TF-IDF to assign numerical values to words.
    - Models:
-      - Naïve Bayes: 
-      - Logistic Regression: a statistical method used for binary classification tasks, where the outcome variable is categorical and has only two possible outcomes. It uses the sigmoid function to model the probability of the binary outcome. It is effective in detecting phishing emails due to its computational efficiency and regularisation techniques that improve its performance.
-      - Random Forest: a popular model used for both classification and regression tasks. It builds multiple decision trees during training and merges their predictions to improve accuracy and reduce overfitting. Since random forest chooses the most important features for classification and yields high accuracy, it helps us to solve our task.
-      - GRU Neural Network: The Gated Recurrent Unit is an efficient type of recurrent neural network (RNN) with update and reset gates. Their gated mechanisms and fewer parameters enhance accuracy, making them valuable for real - time systems in filtering deceptive content and identifying malicious patterns effectively.
-      - Support Vector Machine: SVMs are a supervised machine learning algorithm. They distinguish between two classes by finding the optimal hyperplane that maximizes the margin between the closest data points of opposite classes. This enables it to generalize well to new data and make accurate classification predictions. We tune the kernel function, C value and Gamma to find the best model
+      - **Naïve Bayes**: The Naïve Bayes classifier is a popular supervised machine learning algorithm used for classification tasks such as text classification. It belongs to the family of generative learning algorithms, which means that it models the distribution of inputs for a given class or category.
+      - **Logistic Regression**: a statistical method used for binary classification tasks, where the outcome variable is categorical and has only two possible outcomes. It uses the sigmoid function to model the probability of the binary outcome. It is effective in detecting phishing emails due to its computational efficiency and regularisation techniques that improve its performance.
+      - **Random Forest**: a popular model used for both classification and regression tasks. It builds multiple decision trees during training and merges their predictions to improve accuracy and reduce overfitting. Since random forest chooses the most important features for classification and yields high accuracy, it helps us to solve our task.
+      - **GRU Neural Network**: The Gated Recurrent Unit is an efficient type of recurrent neural network (RNN) with update and reset gates. Their gated mechanisms and fewer parameters enhance accuracy, making them valuable for real - time systems in filtering deceptive content and identifying malicious patterns effectively.
+      - **Support Vector Machine**: SVMs are a supervised machine learning algorithm. They distinguish between two classes by finding the optimal hyperplane that maximizes the margin between the closest data points of opposite classes. This enables it to generalize well to new data and make accurate classification predictions. We tune the kernel function, C value and Gamma to find the best model
    
-   - Evaluation metrics: precision, accuracy, F1 score, ROC curve, Learning Curve, Confusion matrix.
+   - Evaluation metrics: Precision, Accuracy, F1 score, ROC curve, Learning Curve, Confusion matrix.
      To compare the performance of our models, we used the above metrics. F1 Score was our primary consideration since it is useful for measuring the performance for classification models when you have imbalanced data because it takes into account the type of errors — false positive and false negative. This was suitable for our dataset which contained a slight imbalance in email classes.
-     
 
 5. **Testing Best Performing Model** 🧪
-   - Testing sample emails for prediction accuracy.
+   - Testing sample emails for prediction accuracy using best-performing SVM Model.
 
 ## Results 📊
 The project achieved promising results in accurately classifying phishing and safe emails. Although regression, random forest, and GRU neural network were very good models too, the best-performing model was Support Vector Machine, achieving an accuracy of 97% on the test dataset. The insights gained from exploratory data analysis and analytical visualization provided valuable understanding of the characteristics of phishing emails.
@@ -85,7 +84,7 @@ The findings of this project have practical implications in real-world scenarios
 ### Individual Contributions:
 - Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
 - Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
-- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
+- Savanur Akash (U2323703G): EDA, Analytical Visualisation, Logistic Regression, Random Forest, Practical Implications
   
 ## References 📚
 - Smith, G. (2024, April 10). [Top Phishing Statistics for 2024: Latest Figures and Trends](Link). StationX.
