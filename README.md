@@ -46,8 +46,15 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
 4. **Training ML Models and Algorithmic Optimization** 🤖
    - Tokenization: Breaking text into tokens for analysis.
    - Vectorization: Using TF-IDF to assign numerical values to words.
-   - Models: Naïve Bayes, Logistic Regression, Random Forest, GRU Neural Network, Support Vector Machine.
+   - Models:
+      - Naïve Bayes
+      - Logistic Regression
+      - Random Forest
+      - GRU Neural Network
+      - Support Vector Machine
+   
    - Evaluation metrics: precision, accuracy, F1 score, ROC curve, Learning Curve, Confusion matrix.
+     ![Evaluation Metrics](https://github.com/adityamd1307/DSAI-Project-FCMB-team-6/assets/102379249/dd5608cd-7b06-45c8-b29f-cbfb04c49463)
 
 5. **Testing Best Performing Model** 🧪
    - Testing sample emails for prediction accuracy.
@@ -73,11 +80,6 @@ The project achieved promising results in accurately classifying phishing and sa
 ## Practical Implications 💼
 The findings of this project have practical implications in real-world scenarios, where individuals can use the developed model to identify and avoid phishing emails, thereby reducing the risk of falling victim to cyber attacks.
 
-### Individual Contributions:
-- Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
-- Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
-- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
-- 
 ## References 📚
 - Smith, G. (2024, April 10). [Top Phishing Statistics for 2024: Latest Figures and Trends](Link). StationX.
 - Rushton, J. (2023, June 12). [50+ Phishing Statistics You Need to Know – Where, Who & What is Targeted](https://www.techopedia.com/phishing-statistics). Techopedia.
@@ -86,5 +88,3 @@ The findings of this project have practical implications in real-world scenarios
 - Abnormal. [5 Reasons Phishing is Your Biggest Cybersecurity Problem](https://abnormalsecurity.com/blog/phishing-biggest-cybersecurity-problem).
 - Cofense. [How to Spot Phishing Emails | 7 Helpful Tips for Employees](https://cofense.com/knowledge-center/how-to-spot-phishing/).
 - ScienceDirect Topics. [Phishing Detection - an overview](https://www.sciencedirect.com/topics/computer-science/phishing-detection).
-
-
