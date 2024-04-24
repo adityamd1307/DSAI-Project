@@ -1,10 +1,11 @@
 # Phishing Email and Safe Email Classification 📧🔒
 
 ## Team FCMB Group 6 🛡️
-### Team Members and Individual Contributions:
-- Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
-- Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
-- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
+
+### Team Members 
+- Chordia Laksh (U2323234G)
+- Dhaded Aditya Mahalingeshwar (U2323413C)
+- Savanur Akash (U2323703G)
 
 ## Objective 🎯
 This project aims to accurately classify and detect phishing emails, providing practical insights to prevent individuals from falling victim to phishing attacks in real-world scenarios.
@@ -52,11 +53,31 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
    - Testing sample emails for prediction accuracy.
 
 ## Results 📊
-The best-performing model was the Support Vector Machine, with 98% accuracy and a 97% f-score. Insights from EDA and analytical visualization provided a deeper understanding of phishing email characteristics.
+The project achieved promising results in accurately classifying phishing and safe emails. Although regression, random forest, and GRU neural network were very good models too, the best-performing model was Support Vector Machine, achieving an accuracy of 97% on the test dataset. The insights gained from exploratory data analysis and analytical visualization provided valuable understanding of the characteristics of phishing emails.
+
+### Lessons Learned:
+- Handling datasets that need thorough analysis and cleaning before usage.
+- Utilizing new tools for data visualization and analysis such as WordCloud and Sentiment Analysis.
+- Tokenization of text for machine learning model processing.
+- Introduction and implementation of various algorithms like Random Forest, GRU Neural Network, Naive Bayes, and Support Vector Machine.
+- Working with libraries like Keras and Tensorflow.
+- Assessing model correctness based on precision, recall, F1 score, learning curve, ROC curve, confusion matrix, and epochs.
+
+### Conclusion:
+- Multiple models can be used to classify emails with varying accuracy.
+- Phishing emails often exhibit distinct features that aid in prediction.
+- Data preprocessing significantly improves model performance.
+- Visualizing data before modelling provides crucial insights.
+- Implementing similar models in real-world scenarios for phishing email identification is viable.
 
 ## Practical Implications 💼
-The developed model can help individuals identify and avoid phishing emails, reducing the risk of falling victim to cyber attacks.
+The findings of this project have practical implications in real-world scenarios, where individuals can use the developed model to identify and avoid phishing emails, thereby reducing the risk of falling victim to cyber attacks.
 
+### Individual Contributions:
+- Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
+- Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
+- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
+- 
 ## References 📚
 - Smith, G. (2024, April 10). [Top Phishing Statistics for 2024: Latest Figures and Trends](Link). StationX.
 - Rushton, J. (2023, June 12). [50+ Phishing Statistics You Need to Know – Where, Who & What is Targeted](https://www.techopedia.com/phishing-statistics). Techopedia.
@@ -65,3 +86,5 @@ The developed model can help individuals identify and avoid phishing emails, red
 - Abnormal. [5 Reasons Phishing is Your Biggest Cybersecurity Problem](https://abnormalsecurity.com/blog/phishing-biggest-cybersecurity-problem).
 - Cofense. [How to Spot Phishing Emails | 7 Helpful Tips for Employees](https://cofense.com/knowledge-center/how-to-spot-phishing/).
 - ScienceDirect Topics. [Phishing Detection - an overview](https://www.sciencedirect.com/topics/computer-science/phishing-detection).
+
+
