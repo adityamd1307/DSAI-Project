@@ -1,17 +1,17 @@
 # Phishing Email and Safe Email Classification 📧🔒
 
 ## Team FCMB Group 6 🛡️
-### Team Members:
-- Chordia Laksh (U2323234G) 👨‍💻
-- Dhaded Aditya Mahalingeshwar (U2323413C) 👨‍💻
-- Savanur Akash (U2323703G) 👨‍💻
+### Team Members and Individual Contributions:
+- Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
+- Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
+- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
 
 ## Objective 🎯
 This project aims to accurately classify and detect phishing emails, providing practical insights to prevent individuals from falling victim to phishing attacks in real-world scenarios.
 
 ## Dataset Description 📊
 The dataset used in this project is "Phishing Email Detection" by subhajournal, available on Kaggle: [Phishing Email Detection Dataset](https://www.kaggle.com/datasets/subhajournal/phishingemails).
-It contains labelled email data, with features representing various attributes of the emails. Out of 18,634 emails, 60.76% are safe, and the rest are phishing attempts.
+It contains email text and email type (Safe and Phishing). Out of 18,634 emails, 60.76% are safe, and the rest are phishing attempts. 16 values were unclassified.
 
 ## Problem Formulation 🤔
 Phishing is a cybercrime tactic where attackers impersonate legitimate entities to deceive individuals into disclosing sensitive information such as login credentials, financial details, or personal data. The primary goal of this project is to accurately classify phishing and safe emails to combat the increasing rates of phishing attacks.
@@ -33,8 +33,9 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
    - Structured labelling for ease of analysis (Phishing = 1, Safe = 0)
 
 2. **Exploratory Data Analysis (EDA)** 🔍
-   - Assessing the distribution of email classes
-   - Summarizing length distributions of the different email types
+   - Assessing the distribution of email classes. Our dataset contains 11322 safe emails and 7312 phishing emails.
+   - Summarizing length distributions of the different email types. We were able to conclude that phishing emails are generally shorter in length. This could be to grasp the reader’s attention        and create a sense of urgency.
+   - Sentiment Analysis: We also conducted a sentiment analysis of the two email classes from which we inferred that phishing emails, on average, utilise a more emotional tone in their wordings.
 
 3. **Analytical Visualization** 📊
    - Visualization of the distributions of lengths of the email types
@@ -52,10 +53,12 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
    - Testing sample emails to show the accuracy of prediction
 
 ## Results 📊
-The project achieved promising results in accurately classifying phishing and safe emails. The best-performing model was Support Vector Machine, achieving an accuracy of 97% on the test dataset. Insights gained from EDA and analytical visualization provided valuable understanding of phishing email characteristics.
+The project achieved promising results in accurately classifying phishing and safe emails. The best-performing model was the Support Vector Machine, achieving an accuracy of 97% on the test dataset. Insights gained from EDA and analytical visualization provided a valuable understanding of phishing email characteristics.
 
 ## Practical Implications 💼
 Findings from this project have practical implications in real-world scenarios. Individuals can use the developed model to identify and avoid phishing emails, reducing the risk of falling victim to cyber attacks.
+
+
 
 ## References 📚
 - Smith, G. (2024, April 10). [Top Phishing Statistics for 2024: Latest Figures and Trends](Link). StationX.
