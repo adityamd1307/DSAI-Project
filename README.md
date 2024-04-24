@@ -47,20 +47,22 @@ Phishing is a cybercrime tactic where attackers impersonate legitimate entities 
    - Tokenization: Breaking text into tokens for analysis.
    - Vectorization: Using TF-IDF to assign numerical values to words.
    - Models:
-      - Naïve Bayes
-      - Logistic Regression
-      - Random Forest
-      - GRU Neural Network
-      - Support Vector Machine
+      - Naïve Bayes: 
+      - Logistic Regression: a statistical method used for binary classification tasks, where the outcome variable is categorical and has only two possible outcomes. It uses the sigmoid function to model the probability of the binary outcome. It is effective in detecting phishing emails due to its computational efficiency and regularisation techniques that improve its performance.
+      - Random Forest: a popular model used for both classification and regression tasks. It builds multiple decision trees during training and merges their predictions to improve accuracy and reduce overfitting. Since random forest chooses the most important features for classification and yields high accuracy, it helps us to solve our task.
+      - GRU Neural Network: The Gated Recurrent Unit is an efficient type of recurrent neural network (RNN) with update and reset gates. Their gated mechanisms and fewer parameters enhance accuracy, making them valuable for real - time systems in filtering deceptive content and identifying malicious patterns effectively.
+      - Support Vector Machine: SVMs are a supervised machine learning algorithm. They distinguish between two classes by finding the optimal hyperplane that maximizes the margin between the closest data points of opposite classes. This enables it to generalize well to new data and make accurate classification predictions. We tune the kernel function, C value and Gamma to find the best model
    
    - Evaluation metrics: precision, accuracy, F1 score, ROC curve, Learning Curve, Confusion matrix.
-     ![Evaluation Metrics](https://github.com/adityamd1307/DSAI-Project-FCMB-team-6/assets/102379249/dd5608cd-7b06-45c8-b29f-cbfb04c49463)
+     To compare the performance of our models, we used the above metrics. F1 Score was our primary consideration since it is useful for measuring the performance for classification models when you have imbalanced data because it takes into account the type of errors — false positive and false negative. This was suitable for our dataset which contained a slight imbalance in email classes.
+     
 
 5. **Testing Best Performing Model** 🧪
    - Testing sample emails for prediction accuracy.
 
 ## Results 📊
 The project achieved promising results in accurately classifying phishing and safe emails. Although regression, random forest, and GRU neural network were very good models too, the best-performing model was Support Vector Machine, achieving an accuracy of 97% on the test dataset. The insights gained from exploratory data analysis and analytical visualization provided valuable understanding of the characteristics of phishing emails.
+![Evaluation Metrics](https://github.com/adityamd1307/DSAI-Project-FCMB-team-6/assets/102379249/dd5608cd-7b06-45c8-b29f-cbfb04c49463)
 
 ### Lessons Learned:
 - Handling datasets that need thorough analysis and cleaning before usage.
@@ -80,6 +82,11 @@ The project achieved promising results in accurately classifying phishing and sa
 ## Practical Implications 💼
 The findings of this project have practical implications in real-world scenarios, where individuals can use the developed model to identify and avoid phishing emails, thereby reducing the risk of falling victim to cyber attacks.
 
+### Individual Contributions:
+- Chordia Laksh (U2323234G): Data Preprocessing, EDA, WordCloud, Tokenisation, Support Vector Machine
+- Dhaded Aditya Mahalingeshwar (U2323413C): Sentiment Analysis, GRU Neural Network, Statistical Inference
+- Savanur Akash (U2323703G): EDA, Visualisation, Logistic Regression, Random Forest, Practical Implications
+  
 ## References 📚
 - Smith, G. (2024, April 10). [Top Phishing Statistics for 2024: Latest Figures and Trends](Link). StationX.
 - Rushton, J. (2023, June 12). [50+ Phishing Statistics You Need to Know – Where, Who & What is Targeted](https://www.techopedia.com/phishing-statistics). Techopedia.
